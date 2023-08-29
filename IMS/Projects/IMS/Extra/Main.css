@@ -1,0 +1,24 @@
+.btn-secondary{
+  color: #333;
+  text-shadow: none;
+  border: none;
+  border-radius:10px;
+  transition: all .5s ease;
+}
+.btn-secondary:hover{
+  color:#F73333;
+  border: 4px solid #F05050;
+  font-size:25px;
+  transition: all .5s ease;
+}
+.btn-secondary:focus {
+  color:black;
+  font-size: 20px;
+  border:2px solid black;
+  transition: all .5s ease;
+}
+.cover-container {
+  max-width: 42em;
+}
+
+

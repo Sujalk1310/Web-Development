@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body
+{
+    font-family: 'Poppins',sans-serif;
+    background-image: url("../Images/Background.jpg");
+    background-size: cover;
+}
+.content
+{
+    margin: 8%;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.05);
+}
+.signin-text
+{
+    font-style: normal;
+    font-weight: 600 !important;
+}
+.form-control
+{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-style: solid;
+    border-color: red;
+    border-width: 0px 0px 1px 0px ;
+    padding: 0px;
+    color: #495057;
+    height:auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip:padding-box;
+}
+.form-control:focus
+{
+    color:#495057;;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+    outline: 0;
+}
+.btn-class
+{
+    border-color: red;
+    color:red;
+    transition: all 0.5s ease;
+}
+.btn-class:hover
+{   
+    color:whitesmoke;
+    background-color: red;
+    transition: all 0.5s ease;
+}
+.btn-class:active{
+    border:none;
+    background-color: whitesmoke;
+    color: black;
+    transition: all 0.5s ease;
+}
